@@ -53,3 +53,6 @@ The Art Gallery website source code addresses exercises 1 to 7 by creating a sta
 
 
 The link to the GitHub page used to host the website : https://ulugbek19960216.github.io/Art_Website.github.io/
+
+
+
