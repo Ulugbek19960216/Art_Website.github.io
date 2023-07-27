@@ -12,71 +12,104 @@
 </head>
 <body>
 
-   <!---navigation bar-->
-   
-    <nav>
-        <div class="nav-section">
-           <div class="nav-logo">
-            <img src="images/WebLogo.PNG">
-           </div>
-           <ul class="nav-links">
-               <li><a href="#tranding">Home</a></li>
-                <li><a href="#contact-us">Contact</a></li>
-                <li><a href="#map">Location</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="category.html">Categories</a></li>
-                <li class="login-icon"><a href="login.html"><img src="images/sign-icon.png"></a></li>
-           </ul>
-            <div class="toggle-btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="dropdown-menu">
-                <li><a href="#tranding">Home</a></li>
-                <li><a href="#contact-us">Contact</a></li>
-                <li><a href="#map">Location</a></li>
-                <li><a href=#service>Service</a></li>
-                <li><a href="category.html">Categories</a></li>
-                <li class="login-icon"><a href="login.html">Login</a></li>
-            </div>      
-           
-        </div>
-    </nav>
+  <!-- Navigation Bar -->
+<nav>
+  <!-- Navigation Section -->
+  <div class="nav-section">
+    <!-- Navigation Logo -->
+    <div class="nav-logo">
+      <img src="images/WebLogo.PNG">
+    </div>
+    
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+      <!-- Home Link -->
+      <li><a href="#tranding">Home</a></li>
+      
+      <!-- Contact Link -->
+      <li><a href="#contact-us">Contact</a></li>
+      
+      <!-- Location Link -->
+      <li><a href="#map">Location</a></li>
+      
+      <!-- Service Link -->
+      <li><a href="#service">Service</a></li>
+      
+      <!-- Categories Link -->
+      <li><a href="category.html">Categories</a></li>
+      
+      <!-- Login Icon Link -->
+      <li class="login-icon"><a href="login.html"><img src="images/sign-icon.png"></a></li>
+    </ul>
+    
+    <!-- Toggle Button (for responsive dropdown menu) -->
+    <div class="toggle-btn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    
+    <!-- Dropdown Menu (for responsive navigation) -->
+    <div class="dropdown-menu">
+      <!-- Dropdown Menu Links -->
+      <li><a href="#tranding">Home</a></li>
+      <li><a href="#contact-us">Contact</a></li>
+      <li><a href="#map">Location</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="category.html">Categories</a></li>
+      <li class="login-icon"><a href="login.html">Login</a></li>
+    </div>      
+  </div>
+</nav>
 
 
 
     <!---Swiper Slide-->
-    <section id="tranding">
-        <div class="container">
-          <h1 class="text-center section-heading">The Best collections </h1>
+<section id="tranding">
+  <!-- Container for the section heading -->
+  <div class="container">
+    <h1 class="text-center section-heading">The Best collections</h1>
+  </div>
+  
+  <!-- Container for the Swiper slider -->
+  <div class="container">
+    <div class="swiper tranding-slider">
+      <!-- Swiper wrapper containing individual slides -->
+      <div class="swiper-wrapper">
+        <!-- Individual Slide Start -->
+        <div class="swiper-slide tranding-slide">
+          <!-- Slide image -->
+          <div class="tranding-slide-img">
+            <img src="images/art1.jpg" alt="Trending Artwork">
+          </div>
+          
+          <!-- Slide content -->
+          <div class="tranding-slide-content">
+            <!-- Artwork price -->
+            <h1 class="art-price">$11,800</h1>
+            
+            <!-- Artwork name and rating -->
+            <div class="tranding-slide-content-bottom">
+              <!-- Artwork name -->
+              <h2 class="art-name">
+                Original City
+              </h2>
+              
+              <!-- Artwork rating -->
+              <h3 class="art-rating">
+                <!-- Displaying the rating value (e.g., 4.5) -->
+                <span>4.5</span>
+                <!-- Displaying the rating stars using ion-icons -->
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </h3>
+            </div>
+          </div>
         </div>
-        <div class="container">
-          <div class="swiper tranding-slider">
-            <div class="swiper-wrapper">
-              <!-- Slide-start -->
-              <div class="swiper-slide tranding-slide">
-                <div class="tranding-slide-img">
-                  <img src="images/art1.jpg " alt="Tranding">
-                </div>
-                <div class="tranding-slide-content">
-                  <h1 class="art-price">$11,800</h1>
-                  <div class="tranding-slide-content-bottom">
-                    <h2 class="art-name">
-                      Original City
-                    </h2>
-                    <h3 class="art-rating">
-                      <span>4.5</span>
-                      <div class="rating">
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                      </div>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide-end -->
+        <!-- Slide End -->
               <!-- Slide-start -->
               <div class="swiper-slide tranding-slide">
                 <div class="tranding-slide-img">
