@@ -50,3 +50,6 @@ Bootstrap: Bootstrap classes are used for responsive layout, grid system, and st
 FontAwesome: FontAwesome icons are used to enhance the visual appeal of the website, like the toggle button icon.
 Conclusion
 The Art Gallery website source code addresses exercises 1 to 7 by creating a static web application that showcases various artworks, provides a landing page with essential business information, allows access to artwork categories, and includes registration and login functionality (without database connectivity). The code is styled and made responsive using CSS libraries. Further improvements and additional features can be added to enhance the website's functionality and user experience.
+
+
+The link to the GitHub page used to host the website : https://ulugbek19960216.github.io/Art_Website.github.io/
